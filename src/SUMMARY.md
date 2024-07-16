@@ -1,3 +1,3 @@
-# Summary
+## Thought and Deep Dives on Blockchains and Payment Networks
 
-- [Chapter 1](./chapter_1.md)
+- [Intro 1](./intro.md)
