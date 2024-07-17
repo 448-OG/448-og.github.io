@@ -1,4 +1,6 @@
 ### Blinded Diffie–Hellman–Merkle for Ecash Mints
+> The source code — [https://github.com/448-OG/Blinded-Diffie-Hellman-merkle/blob/master/src/main.rs](https://github.com/448-OG/Blinded-Diffie-Hellman-merkle/blob/master/src/main.rs)
+> 
 In 1982 David Chaum conceived the idea of anonymous cryptographic electronic cash using cryptographic proofs to mint electronic and melt electronic tokens.
 
 The security proofs were guaranteed using blinded digital signature schemes that provided unlinkability between withdrawal and spending transactions. The concept of blind signatures can be explained by a scenario where a provider wants an entity to commit to a certain proof even though that entity does not know the proof. The provider can then reveal the proof later or send it to another provider who can reveal the proof to the entity.
@@ -9,7 +11,7 @@ In this article we will look at how to construct a simple Ecash token using Blin
 
 Diffie–Hellman–Merkle key is a protocol for exchanging secrets between parties over a public channel where at least one of the party’s public keys is known.
 
-![Diffie-Hellman-Key-Exchange](https://upload.wikimedia.org/wikipedia/commons/c/c8/DiffieHellman.png)
+<image src="https://upload.wikimedia.org/wikipedia/commons/c/c8/DiffieHellman.png" width="60%" alt="Diffie-Hellman-Key-Exchange">
 
 ### Our algorithm for Blinded Diffie-Hellman-Merkle key exchange with comprise of:
 1. a secret key and a public key for the mint
@@ -215,8 +217,6 @@ Inside the `main.rs` file, lets create the code for our algorithm
 
 That’s it. We have created an algorithm for generating Ecash tokens using the blinded Diffie-Hellman-Merkle algorithm.
 
------
-> The source code can be found at — https://github.com/448-OG/Blinded-Diffie-Hellman-merkle/blob/master/src/main.rs
 
 #### References
 
