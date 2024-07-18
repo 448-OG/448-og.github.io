@@ -5,10 +5,6 @@ multilingual = false
 src = "src"
 title = "Deeper Understanding of Blockchains and Payments Infrastructure"
 
-[preprocessor.theme]
-pagetoc = true
-sidebar-width = "250px"
-
 [output.html]
 default-theme = "ayu"
 git-repository-url = ""
@@ -24,7 +20,3 @@ editable = true
 
 [output.html.print]
 enable = false
-
-[output.theme-ace]
-theme-white = "xcode"
-theme-dark = "monokai"
